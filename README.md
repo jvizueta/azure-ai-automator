@@ -1,12 +1,14 @@
+#Azure AI Automator
+Azure AI Automation using n8n on Azure AKS using Helm and Terraform
 
-TODO:
+## TODO List:
 - Create Azure Pg DB with Terraform as an option to CNPG
 - Create the A Record with Terraform
 - Helm cmds to bash script
 
 ## Prerequisites
 
-# Check AKS availability
+### Check AKS availability
 
 ```
 az aks get-credentials --resource-group <your-resource-group> --name <your-aks-cluster-name>
