@@ -1,0 +1,18 @@
+main:
+  extraEnv:
+    - name: N8N_SECURE_COOKIE
+      value: "false"
+  config:
+    n8n:
+      hide_usage_page: true
+  secret:
+    n8n:
+      encryption_key: "amTOeqSfX05nUuDeMUpq7e5YOYBhtrnxvy59IeCIcwCndKIiHq3kUXLSvK9T8UM2"  # change it for a real and secure key
+  resources:
+    limits:
+      memory: 2048Mi
+    requests:
+      memory: 512Mi
+  service:
+    type: NodePort
+    port: 5678

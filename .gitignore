@@ -1,0 +1,48 @@
+# Diretórios de configuração do Terraform
+.terraform/
+
+# Arquivos de estado do Terraform
+*.tfstate
+*.tfstate.*
+
+# Backup de arquivos de estado
+*.tfstate.backup
+
+# Arquivos de variáveis com valores sensíveis
+*.tfvars
+*.tfvars.json
+
+# Arquivo de bloqueio de provedores
+.terraform.lock.hcl
+
+# Logs de crash do Terraform
+crash.log
+
+# Overrides (se usares override.tf ou override.tf.json)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Planos gerados
+*.tfplan
+
+# Arquivos de certificação (ex: certificados SSL/TLS)
+*.crt
+
+# Arquivos de credenciais ou chaves privadas
+*.pem
+*.key
+
+# Diretórios locais do editor/IDE
+.vscode/
+.idea/
+
+# Outros ficheiros temporários
+*.log
+*.bak
+*~
+
+# Opcional: ignorar ficheiros específicos de OS
+.DS_Store
+Thumbs.db
