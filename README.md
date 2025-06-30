@@ -1,10 +1,17 @@
 
+TODO:
+- Create Azure Pg DB with Terraform as an option to CNPG
+- Create the A Record with Terraform
+- Helm cmds to bash script
+
 ## Prerequisites
 
 # Check AKS availability
 
+```
 az aks get-credentials --resource-group <your-resource-group> --name <your-aks-cluster-name>
 kubectl get nodes
+```
 
 ### Cloud Native PG installation (if Azure PG DB not used)
 Recommended version of Cloud Native PG is v1.25.1 for mid-2025
