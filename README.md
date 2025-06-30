@@ -1,5 +1,6 @@
 # Azure AI Automator 
-Azure AI Automation using n8n on Azure AKS using Helm and Terraform
+AI Automation Environment on Azure using n8n on AKS
+Keywords: Azure, Terraform, AKS, k8s, Helm, PostgreSQL
 
 ## TODO List:
 - Create Azure Pg DB with Terraform as an option to CNPG
